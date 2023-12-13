@@ -12,10 +12,10 @@ def predict_weather(W):
     else:
         return "Storms"
 
-# Given values
-t = int(input("Enter t: "))
-H = int(input("Enter H: "))
-w = int(input("Enter w: "))
+# Assign predefined values for t, H, and w
+t = 25
+H = 70
+w = 10
 
 # Calculate W using the weather prediction formula
 W = weather_prediction(t, H, w)
